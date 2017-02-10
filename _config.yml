@@ -1,1 +1,17 @@
-theme: jekyll-theme-leap-day
+name: "Helyo"
+baseurl: ""
+
+language: "en"
+timezone: "Europe/Paris"
+encoding: "utf-8"
+
+gems: [jekyll-paginate]
+paginate: 10
+
+exclude: ["node_modules"]
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  style: compressed
