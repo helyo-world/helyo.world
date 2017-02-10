@@ -1,0 +1,147 @@
+
+@import "_variables.scss";
+
+/**************************************************
+ *
+ * Global
+ *
+ **************************************************/
+body {
+	margin: 0;
+	font-family: $font-family;
+	color: #212121;
+	background-color: #f5f5f5;
+}
+
+/**************************************************
+ *
+ * Texts
+ *
+ **************************************************/
+
+a {
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/**************************************************
+ *
+ * Responsive
+ *
+ **************************************************/
+
+.container {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+@media (max-width: 60rem) {
+	.container {
+		margin: 0 .5rem;
+	}
+}
+
+/**************************************************
+ *
+ * Topbar
+ *
+ **************************************************/
+
+#topbar {
+	height: $topbar-height;
+	background-color: #fff;
+
+	a {
+		display: inline-block;
+		padding: $topbar-padding ($topbar-padding / 2);
+		font-size: $topbar-height - (2 * $topbar-padding);
+		line-height: 1;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
+	}
+	#logo {
+		padding: $topbar-padding 0;
+	}
+
+	.topbar-links {
+		float: right;
+		display: flex;
+		list-style: none;
+		overflow-x: auto;
+		margin: 0;
+		padding: 0;
+
+		& > li {
+			flex: 1;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+/**************************************************
+ *
+ * Posts
+ *
+ **************************************************/
+
+.posts-list {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+
+	& > li {
+
+		& > a {
+			display: block;
+			background-color: #fff;
+			margin: 20px 0;
+			padding: 0 10px;
+			text-decoration: none;
+			overflow: hidden;
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+
+			& > h2,
+			& > p {
+				margin: 10px 0;
+			}
+		}
+	}
+}
+.post-content {
+	display: block;
+	background-color: #fff;
+	margin: 20px 0;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+/**************************************************
+ *
+ * Code
+ *
+ **************************************************/
+
+pre,
+code {
+	font-family: $font-family-code;
+	tab-size: 4;
+}
+pre {
+	padding: 5px;
+	border-radius: 3px;
+	overflow: auto;
+}
+@import "./pygments-themes/native.scss";

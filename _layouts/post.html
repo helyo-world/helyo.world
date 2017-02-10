@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+	<meta charset="{{ site.encoding | uppercase }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ page.title }} | {{ site.name }}</title>
+	<meta name="description" content="{{ post.excerpt | strip_html }}">
+
+	<link rel="stylesheet" href="{{ "/css/helyo.world.css" | relative_url }}">
+
+</head>
+<body>
+	{% include topbar.html %}
+
+	<div id="page">
+		<div class="container">
+			<main class="post-content">
+				<article>
+					{{ content }}
+				</article>
+				<footer>
+					<p>
+						Posted by {{ page.author }} on {{ page.date | date_to_long_string }}
+					</p>
+				</footer>
+			</main>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+{% if paginator.previous_page %}
+<h1>You are currently on page {{ paginator.page }}</h1>
+{% endif %}
+
+<ol class="posts-list">
+	{% for post in paginator.posts %}
+	<li>
+		<a href="{{ post.url }}">
+			<h2>{{ post.title }}</h2>
+			<p>Posted on {{ post.date | date_to_long_string }}, by {{ post.author }}<p>
+		</a>
+	</li>
+	{% endfor %}
+</ol>
+
+{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
+<div class="pagination">
+	{% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path }}" class="previous">Précédente</a>
+	{% else %}
+	<span class="previous">Précédente</span>
+	{% endif %}
+
+	<span class="page_number">Page&nbsp;: {{ paginator.page }} sur {{ paginator.total_pages }}</span>
+
+	{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path }}" class="next">Suivante</a>
+	{% else %}
+	<span class="next ">Suivante</span>
+	{% endif %}
+</div>
+{% endif %}
