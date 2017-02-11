@@ -10,9 +10,13 @@
 <body>
 	{% include topbar.html %}
 	<div id="page">
-		<main class="container">
-			{{ content }}
-		</main>
+		<aside id="cover" role="presentation"></aside>
+
+		<div class="container">
+			<main class="post-content">
+				{{ content }}
+			</main>
+		</div>
 	</div>
 </body>
 </html>

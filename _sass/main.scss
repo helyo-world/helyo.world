@@ -9,8 +9,8 @@
 body {
 	margin: 0;
 	font-family: $font-family;
-	color: #212121;
-	background-color: #f5f5f5;
+	color: $text-color;
+	background-color: $background-color;
 }
 
 /**************************************************
@@ -52,8 +52,14 @@ img {
  **************************************************/
 
 #topbar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
 	height: $topbar-height;
 	background-color: #fff;
+	box-shadow: 0 2px 4px $shadow-color;
 
 	a {
 		display: inline-block;
@@ -89,22 +95,51 @@ img {
 
 /**************************************************
  *
+ * Page
+ *
+ **************************************************/
+
+
+#page {
+	margin-top: $topbar-height;
+}
+
+#cover {
+	background-color: $primary-color;
+	padding-top: 25vw;
+
+	& + .container {
+		margin-top: -80px;
+	}
+}
+
+.card {
+	display: block;
+	background-color: #fff;
+	margin: 20px 0;
+	padding: 0 10px;
+	box-shadow: 0 2px 4px $shadow-color;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+/**************************************************
+ *
  * Posts
  *
  **************************************************/
 
 .posts-list {
-	margin: 20px 0;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 
 	& > li {
+		&:not(:first-child) {
+			border-top: 1px solid $shadow-color;
+		}
 
 		& > a {
-			display: block;
-			background-color: #fff;
-			margin: 20px 0;
-			padding: 0 10px;
 			text-decoration: none;
 			overflow: hidden;
 
@@ -121,11 +156,11 @@ img {
 	}
 }
 .post-content {
-	display: block;
-	background-color: #fff;
-	margin: 20px 0;
-	padding: 0 10px;
-	overflow: hidden;
+	@extend .card;
+
+	footer {
+		border-top: 1px solid $shadow-color;
+	}
 }
 
 /**************************************************
