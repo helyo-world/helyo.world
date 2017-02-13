@@ -160,6 +160,7 @@ img {
 	@extend .card;
 
 	footer {
+		margin-top: 20px;
 		border-top: 1px solid $shadow-color;
 	}
 }
