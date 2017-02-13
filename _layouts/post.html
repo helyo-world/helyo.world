@@ -12,7 +12,11 @@
 	{% include topbar.html %}
 
 	<div id="page">
+		{% if post.cover %}
 		<aside id="cover" role="presentation"></aside>
+		{% else %}
+		<aside id="cover" role="presentation" style="background-image: url({{page.cover}});"></aside>
+		{% endif %}
 
 		<main class="container">
 			<article class="post-content">
@@ -24,7 +28,7 @@
 				</section>
 				<footer>
 					<p>
-						Written by {{ page.author }} on {{ page.date | date_to_long_string }}.
+						Written by {{ page.author }} on <a href="{{ page.url | prepend:site.github.url }}">{{ page.date | date_to_long_string }}</a>.
 
 						{% assign post = page %}
 						{% if post.tags.size > 0 %}
