@@ -1,0 +1,24 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>{{ site.name }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.github.url }}</link>
+		<language>{{ site.language }}</language>
+		<lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+		{% for post in site.posts %}
+		{% unless post.draft %}
+		<item>
+			<title>{{ post.title | xml_escape }}</title>
+			<description>{{ post.content | xml_escape }}</description>
+			<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+			<link>{{ post.url | prepend:site.github.url }}</link>
+			<guid isPermaLink="true">{{ post.url | prepend:site.github.url }}</guid>
+		</item>
+		{% endunless %}
+		{% endfor %}
+	</channel>
+</rss>

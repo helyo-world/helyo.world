@@ -6,6 +6,9 @@
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
 	<link rel="stylesheet" href="{{ "/css/helyo.world.css" | relative_url }}">
+
+	<link rel="alternate" type="application/rss+xml"
+    href="{{ "/feed.xml" | prepend:site.github.url }}" title="Votre titre">
 </head>
 <body>
 	{% include topbar.html %}
