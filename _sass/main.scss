@@ -110,7 +110,7 @@ img {
 	padding-top: 25vw;
 
 	& + .container {
-		margin-top: -80px;
+		margin-top: -88px;
 	}
 }
 
@@ -134,13 +134,21 @@ img {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+.post-content {
+	@extend .card;
 
-	& > li {
-		&:not(:first-child) {
-			border-top: 1px solid $shadow-color;
-		}
+	& > h2,
+	& > p {
+		margin: 10px 0;
+	}
 
-		& > a {
+	header {
+		margin-bottom: 20px;
+		border-bottom: 1px solid $shadow-color;
+
+		a {
+			display: block;
 			text-decoration: none;
 			overflow: hidden;
 
@@ -148,18 +156,10 @@ img {
 			&:focus {
 				text-decoration: underline;
 			}
-
-			& > h2,
-			& > p {
-				margin: 10px 0;
-			}
 		}
 	}
-}
-.post-content {
-	@extend .card;
-
 	footer {
+		margin-top: 20px;
 		border-top: 1px solid $shadow-color;
 	}
 }
