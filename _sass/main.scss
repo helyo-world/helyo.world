@@ -178,7 +178,6 @@ code {
 pre {
 	padding: 5px;
 	border-radius: 3px;
-	overflow: auto;
 }
 
 .highlighter-rouge {
@@ -189,9 +188,21 @@ pre {
 	border-radius: 3px;
 	box-shadow: 0 2px 10px $shadow-color;
 
+	& > .highlight {
+		border-radius: 0 0 3px 3px;
+		border-top: 1px solid #d0d0d0;
+		background-color: #fcfcfc;
+		overflow: auto;
+
+		.gutter {
+			-webkit-user-select: none;
+			user-select: none;
+		}
+	}
+
 	&::before,
 	&::after,
-	&>.highlight::before {
+	& > .highlight::before {
 		content: '';
 		position: absolute;
 		top: 7px;
@@ -208,15 +219,15 @@ pre {
 	&::after {
 		left: 25px;
 	}
-	&>.highlight::before {
+	& > .highlight::before {
 		left: 43px;
 	}
 
+	table {
+		width: 100%;
+	}
 	pre {
 		margin: 0;
-		border-radius: 0 0 3px 3px;
-		border-top: 1px solid #d0d0d0;
-		background-color: #fcfcfc;
 	}
 }
 
