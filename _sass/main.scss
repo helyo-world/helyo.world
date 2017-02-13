@@ -29,6 +29,13 @@ img {
 	height: auto;
 }
 
+hr {
+	margin: 20px 0;
+	height: 1px;
+	background-color: $accent-color;
+	border: none;
+}
+
 /**************************************************
  *
  * Responsive
@@ -187,7 +194,13 @@ pre {
 	border-radius: 3px;
 }
 
-.highlighter-rouge {
+code.highlighter-rouge {
+	padding: 0 3px;
+	background: #f6f6f6;
+	border: 1px solid #ececec;
+	border-radius: 3px;
+}
+div.highlighter-rouge {
 	position: relative;
 	margin: 10px 0 20px;
 	padding-top: 28px;
