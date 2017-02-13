@@ -106,10 +106,17 @@ img {
 }
 
 #cover {
+	position: relative;
 	background-color: $primary-color;
+	background-image: radial-gradient(ellipse farthest-side at right top, lighten($primary-color, 15%) 0%, transparentize($primary-color, 1) 100%), radial-gradient(ellipse farthest-side at left bottom, darken($primary-color, 15%) 0%, transparentize($primary-color, 1) 100%);
+	background-position: center;
+	background-size: cover;
 	padding-top: 25vw;
 
+
 	& + .container {
+		position: relative;
+		z-index: 1;
 		margin-top: -88px;
 	}
 }
@@ -205,9 +212,9 @@ pre {
 	& > .highlight::before {
 		content: '';
 		position: absolute;
-		top: 7px;
-		width: 12px;
-		height: 12px;
+		top: 8px;
+		width: 10px;
+		height: 10px;
 		background: #e8e8e8;
 		border: 1px solid #e5e5e5;
 		border-radius: 100%;
@@ -217,10 +224,10 @@ pre {
 		left: 7px;
 	}
 	&::after {
-		left: 25px;
+		left: 24px;
 	}
 	& > .highlight::before {
-		left: 43px;
+		left: 41px;
 	}
 
 	table {

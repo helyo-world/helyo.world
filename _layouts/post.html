@@ -12,7 +12,11 @@
 	{% include topbar.html %}
 
 	<div id="page">
+		{% if post.cover %}
 		<aside id="cover" role="presentation"></aside>
+		{% else %}
+		<aside id="cover" role="presentation" style="background-image: url({{page.cover}});"></aside>
+		{% endif %}
 
 		<main class="container">
 			<article class="post-content">
