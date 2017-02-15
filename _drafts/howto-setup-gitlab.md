@@ -58,7 +58,7 @@ sudo apt install gitlab-ce
 
 You now have a shiny GitLab server, ready to be started and used. But if you already have a web server on the same machine, you might need to configure it to redirect to the GitLab Workhorse.
 
-You can stop there if you only have GitLab of your machine, at il will listen on port 80 by default. Just execute the `sudo gitlab-ctl reconfigure` command and you'll be good to go.
+You can stop here if you only have GitLab of your machine, as il will listen on port 80 by default. Just execute the `sudo gitlab-ctl reconfigure` command and you'll be good to go.
 
 # Great. So how do I use nginx as a proxy?
 
@@ -208,7 +208,7 @@ Then tell GitLab to apply these changes:
 sudo gitlab-ctl reconfigure
 ```
 
-And you should be good to go! You can now visit your domain and get started. You will be asked to configure the *root* account's password befor you can log in.
+And you should be good to go! You can now visit your domain and get started. You will be asked to configure the *root* account's password before you can log in.
 
 # What's next?
 
