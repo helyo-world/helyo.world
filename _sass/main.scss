@@ -230,9 +230,13 @@ div.highlighter-rouge {
 		background-color: #fcfcfc;
 		overflow: auto;
 
+		& > table {
+			table-layout: fixed;
+		}
 		.gutter {
 			-webkit-user-select: none;
 			user-select: none;
+			width: 2.5em;
 		}
 	}
 
