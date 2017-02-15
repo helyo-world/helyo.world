@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Us
+cover: /images/tools-rack.jpg
 ---
 
 # Who are we?
