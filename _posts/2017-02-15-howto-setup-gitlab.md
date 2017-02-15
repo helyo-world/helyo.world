@@ -1,7 +1,7 @@
 ---
 title: How to set up your own GitLab server
 layout: post
-author: Corentin
+author: corentin
 cover: /images/tools-rack.jpg
 tags:
 - tools

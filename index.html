@@ -8,6 +8,7 @@ layout: archive
 
 <ol class="posts-list">
 	{% for post in paginator.posts %}
+	{% assign author = site.data.authors[post.author] %}
 	<li class="post-content">
 		<header>
 			<h2>
@@ -20,7 +21,7 @@ layout: archive
 		<footer>
 			<p>
 				Posted on <a href="{{ post.url | prepend:site.github.url }}">{{ post.date | date_to_long_string }}</a>,
-				by {{ post.author | trim }}
+				by {{ author.displayName }}
 			<p>
 		</footer>
 	</li>

@@ -44,14 +44,6 @@ cover: /images/tools-rack.jpg
 }
 ```
 
-## Eric Barault
-
-Back-end guru, API advocate, PHP apprentice
-
-## Corentin Hatte
-
-Front-end guru, Quality advocate, PHP master
-
 # What do we do?
 
 We make stuff. Period.
