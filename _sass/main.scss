@@ -32,7 +32,7 @@ img {
 hr {
 	margin: 20px 0;
 	height: 1px;
-	background-color: $accent-color;
+	background-color: $shadow-color;
 	border: none;
 }
 
@@ -175,6 +175,21 @@ hr {
 	footer {
 		margin-top: 20px;
 		border-top: 1px solid $shadow-color;
+	}
+}
+
+#markdown-toc {
+	& > li {
+		margin: 5px 0;
+	}
+
+	a {
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
 	}
 }
 

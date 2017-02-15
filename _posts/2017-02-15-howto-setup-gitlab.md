@@ -13,6 +13,9 @@ One thing developers can't ignore nowadays is Git. So why not use your own serve
 
 ---
 
+# Summary
+{:.no_toc}
+
 * TOC
 {:toc}
 
@@ -36,6 +39,8 @@ Anyway, here are some of the reasons why I installed my very own private Git ser
 	* Teams & User access
 	* Continuous development
 
+---
+
 # OK, I'm sold. What do I need?
 
 Well, first you need to have your own server to host GitLab.
@@ -45,6 +50,8 @@ You should also make sure that it is powerful enough to make [GitLab CE](https:/
 In this case, I have been using a Ubuntu 16.04 system, with 4 cores and 4 GB of RAM and a bunch of storage. The CPU capacity is enough, though the RAM is a little short if you want to use the same server for other things (CI, Docker deployment, regular hosting, etc).
 
 The same server is already used for other projects, served by nginx, so I will reuse it.
+
+---
 
 # All checks are green. How do I install that?
 
@@ -59,6 +66,8 @@ sudo apt install gitlab-ce
 You now have a shiny GitLab server, ready to be started and used. But if you already have a web server on the same machine, you might need to configure it to redirect to the GitLab Workhorse.
 
 You can stop here if you only have GitLab of your machine, as il will listen on port 80 by default. Just execute the `sudo gitlab-ctl reconfigure` command and you'll be good to go.
+
+---
 
 # Great. So how do I use nginx as a proxy?
 
@@ -209,6 +218,8 @@ sudo gitlab-ctl reconfigure
 ```
 
 And you should be good to go! You can now visit your domain and get started. You will be asked to configure the *root* account's password before you can log in.
+
+---
 
 # What's next?
 
