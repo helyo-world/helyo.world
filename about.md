@@ -45,11 +45,11 @@ title: About Us
 
 ## Eric Barault
 
-JavaScript advocate, PHP newbie
+Back-end guru, API advocate, PHP apprentice
 
 ## Corentin Hatte
 
-PHP master, JavaScript guru
+Front-end guru, Quality advocate, PHP master
 
 # What do we do?
 
