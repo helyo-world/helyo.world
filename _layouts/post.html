@@ -13,7 +13,7 @@
 
 	<div id="page">
 		{% if page.cover %}
-		<aside id="cover" role="presentation" style="background-image: url({{ page.cover | relative_url }});"></aside>
+		<aside id="cover" class="has-image" role="presentation" style="background-image: url({{ page.cover | relative_url }});"></aside>
 		{% else %}
 		<aside id="cover" role="presentation"></aside>
 		{% endif %}

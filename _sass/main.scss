@@ -118,8 +118,12 @@ hr {
 	background-image: radial-gradient(ellipse farthest-side at right top, lighten($primary-color, 15%) 0%, transparentize($primary-color, 1) 100%), radial-gradient(ellipse farthest-side at left bottom, darken($primary-color, 15%) 0%, transparentize($primary-color, 1) 100%);
 	background-position: center;
 	background-size: cover;
-	padding-top: 25vw;
+	height: 10vw;
+	min-height: 100px;
 
+	&.has-image {
+		height: 40vw;
+	}
 
 	& + .container {
 		position: relative;
