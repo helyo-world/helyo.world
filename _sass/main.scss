@@ -50,11 +50,11 @@ hr {
  **************************************************/
 
 .container {
-	max-width: 60rem;
+	max-width: 50rem;
 	margin: 0 auto;
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 50rem) {
 	.container {
 		margin: 0 .5rem;
 	}
@@ -109,6 +109,37 @@ hr {
 		}
 	}
 }
+@media screen and (min-width: 60rem) {
+	#topbar {
+		right: auto;
+		bottom: 0;
+		width: $topbar-width;
+		height: auto;
+		display: flex;
+
+		& > .container {
+			flex: 1;
+			align-self: center;
+		}
+
+		a {
+			display: block;
+			text-align: center;
+		}
+
+		#logo {
+			font-size: 26px;
+		}
+
+		.topbar-links {
+			float: none;
+
+			a {
+				font-size: 14px;
+			}
+		}
+	}
+}
 
 /**************************************************
  *
@@ -118,6 +149,17 @@ hr {
 
 #page {
 	margin-top: $topbar-height;
+}
+@media screen and (min-width: 60rem) {
+	#page {
+		margin-top: 0;
+		margin-left: $topbar-width;
+
+		.container {
+			padding-right: 1em;
+			padding-left: 1em;
+		}
+	}
 }
 
 #cover {
