@@ -225,4 +225,4 @@ And you should be good to go! You can now visit your domain and get started. You
 
 Well, if you want to have a secure environment, you should consider switching to HTTPS. So we'll see how to do that very soon!
 
-[CI]: Continuous Integration
+*[CI]: Continuous Integration
