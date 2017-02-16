@@ -42,6 +42,19 @@ Use those tools! You'll be faster and you can even use some of that free time to
 
 # Pick the right tools
 
+Don't be afraid to spend a few days, or even a couple of weeks, seeking and trying out a bunch of tools that might suit your needs.
+
+If they save you a month worth of work, you can easily spend a few days testing them. If so many people use [WordPress](https://www.wordpress.org/) or [Express](http://expressjs.com) nowadays, there is a (very good) reason: it saves (a lot of) time.
+
+So don't hesitate: test them, push them to their limits!
+
+* Break them
+* Study them
+* Read come of the code
+* Look at the documentation
+* Speak to other users
+* Read others' opinions
+
 ---
 
 # Choose the right people
