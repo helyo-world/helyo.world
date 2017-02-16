@@ -4,15 +4,15 @@
 
 	<link rel="stylesheet" href="{{ "/css/helyo.world.css" | relative_url }}">
 
-	<meta itemprop="og:site_name" content="{{ site.name }}">
+	<meta property="og:site_name" content="{{ site.name }}">
 
-	<meta itemprop="og:title" content="{{ page.title }}">
-	<meta itemprop="og:url" content="{{ page.url | prepend:site.github.url }}">
+	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:url" content="{{ page.url | prepend:site.github.url }}">
 
 	{% if page.excerpt %}
 	<meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
-	<meta itemprop="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
+	<meta property="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
 	{% endif %}
 	{% if page.cover %}
-	<meta itemprop="og:image" content="{{ page.cover | prepend:site.github.url }}">
+	<meta property="og:image" content="{{ page.cover | prepend:site.github.url }}">
 	{% endif %}
