@@ -76,6 +76,13 @@
 							{{ author.github }}
 						</a>
 						{% endif %}
+
+						{% if author.skype %}
+						<a href="skype:{{ author.skype }}?userinfo" class="external-profile" target="_blank" rel="noopener noreferer" aria-label="Skype profile">
+							<i class="fa fa-skype" aria-hidden="true" title="Skype profile"></i>
+							{{ author.skype }}
+						</a>
+						{% endif %}
 					</p>
 				</div>
 			</aside>
