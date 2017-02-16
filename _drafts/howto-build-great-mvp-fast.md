@@ -1,5 +1,5 @@
 ---
-title: How to develop a great MVP, fast
+title: How to build a great MVP, fast
 layout: post
 author: corentin
 cover: /images/startup-whiteboard.jpg
