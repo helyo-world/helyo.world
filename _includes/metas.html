@@ -1,3 +1,18 @@
-<meta charset="{{ site.encoding | uppercase }}">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="{{ "/css/helyo.world.css" | relative_url }}">
+	<meta charset="{{ site.encoding }}">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="{{ "/css/helyo.world.css" | relative_url }}">
+
+	<meta property="og:site_name" content="{{ site.name }}">
+
+	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:url" content="{{ page.url | prepend:site.github.url }}">
+
+	{% if page.excerpt %}
+	<meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
+	<meta property="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
+	{% endif %}
+	{% if page.cover %}
+	<meta property="og:image" content="{{ page.cover | prepend:site.github.url }}">
+	{% endif %}

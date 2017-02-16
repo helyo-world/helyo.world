@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ site.language }}">
+<html lang="{{ site.language }}" prefix="og: http://ogp.me/ns#">
 <head>
 	<title>{{ page.title }} | {{ site.name }}</title>
-	<meta name="description" content="{{ post.excerpt | strip_html }}">
 	{% include metas.html %}
 </head>
 <body>
@@ -35,7 +34,7 @@
 		<aside id="cover" role="presentation"></aside>
 		{% endif %}
 
-		<main class="container" itemscope itemtype="http://schema.org/Article">
+		<main class="container" itemscope itemtype="http://schema.org/BlogPosting">
 			<article class="post-content">
 				<header>
 					<h1 itemprop="headline">{{ page.title }}</h1>
@@ -45,7 +44,7 @@
 				</section>
 				<footer>
 					<p>
-						Published on <a href="{{ page.url | prepend:site.github.url }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</a>
+						Published on <a href="{{ page.url | prepend:site.github.url }}"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time></a>
 
 						{{ tags_content }}
 					</p>
