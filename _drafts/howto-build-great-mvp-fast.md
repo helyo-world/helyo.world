@@ -48,16 +48,33 @@ If they save you a month worth of work, you can easily spend a few days testing 
 
 So don't hesitate: test them, push them to their limits!
 
-* Break them
 * Study them
 * Read come of the code
 * Look at the documentation
 * Speak to other users
 * Read others' opinions
+* Break them, don't be shy
 
 ---
 
 # Choose the right people
 
+If your project isn't tiny, chances are you will need to recruit people to help you built it. But you probably don't want to take the risk to hire someone who doesn't suit your needs. And you're right, you should be careful enough to make sure your beloved project becomes successful!
+
+I won't give you a Recruiting 101 lecture in this article, but there are a few key points that might help you a bit.
+
+## Look at their past projects
+
+If you want to make sure someone is capable enough, you should take a look at what they have already built.
+
+* Did they write clean code?
+* Did they cover edge cases?
+* Did they use appropriate tools?
+
+## Socialize
+
+If you're gonna be working with someone, you should make sure you can work together. See if their personality suits you, if you can talk to them easily. You don't have to be BFF's, but you should at least be able to chat some.
+
 *[MVP]: Minimum Viable Product
 *[OSS]: Open-Source Software
+*[BFF]: Best Friend Forever
