@@ -21,7 +21,13 @@
 	<meta itemprop="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
 	<meta name="twitter:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
 	{% endif %}
+
 	{% if page.cover %}
 	<meta itemprop="og:image" content="{{ page.cover | prepend:site.github.url }}">
 	<meta name="twitter:image" content="{{ page.cover | prepend:site.github.url }}">
+	{% endif %}
+
+	{% if page.author %}
+	{% assign author = site.data.authors[page.author] %}
+	<meta name="twitter:creator" content="@{{ author.twitter }}">
 	{% endif %}
