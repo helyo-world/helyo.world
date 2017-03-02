@@ -8,8 +8,8 @@
 
 	<meta itemprop="og:site_name" content="{{ site.name }}">
 
-	<meta property="og:title" content="{{ page.title }}">
-	<meta property="og:url" content="{{ page.url | prepend:site.github.url }}">
+	<meta itemprop="og:title" content="{{ page.title }}">
+	<meta itemprop="og:url" content="{{ page.url | prepend:site.github.url }}">
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="{{ page.title }}">
@@ -19,9 +19,9 @@
 	{% if page.excerpt %}
 	<meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
 	<meta itemprop="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
-	<meta itemprop="twitter:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
+	<meta name="twitter:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
 	{% endif %}
 	{% if page.cover %}
 	<meta itemprop="og:image" content="{{ page.cover | prepend:site.github.url }}">
-	<meta itemprop="twitter:image" content="{{ page.cover | prepend:site.github.url }}">
+	<meta name="twitter:image" content="{{ page.cover | prepend:site.github.url }}">
 	{% endif %}
