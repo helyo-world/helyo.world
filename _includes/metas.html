@@ -4,15 +4,24 @@
 
 	<link rel="stylesheet" href="{{ "/css/helyo.world.css" | relative_url }}">
 
+	<link rel="canonical" href="{{ page.url | prepend:site.github.url }}" />
+
 	<meta itemprop="og:site_name" content="{{ site.name }}">
 
 	<meta itemprop="og:title" content="{{ page.title }}">
 	<meta itemprop="og:url" content="{{ page.url | prepend:site.github.url }}">
 
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{{ page.title }}">
+	<meta name="twitter:url" content="{{ page.url | prepend:site.github.url }}">
+	<meta name="twitter:site" content="@HelyoWorld">
+
 	{% if page.excerpt %}
 	<meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
 	<meta itemprop="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
+	<meta name="twitter:description" content="{{ page.excerpt | strip_html | normalize_whitespace }}">
 	{% endif %}
 	{% if page.cover %}
 	<meta itemprop="og:image" content="{{ page.cover | prepend:site.github.url }}">
+	<meta name="twitter:image" content="{{ page.cover | prepend:site.github.url }}">
 	{% endif %}
