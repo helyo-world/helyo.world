@@ -62,7 +62,7 @@ Our expertise:
 	<img alt="Laravel" src="{{ '/images/logos/laravel.svg' | relative_url }}">
 </p>
 
-## Operations
+## Operations and tools
 
 <p class="logos-list">
 	<img alt="Git" src="{{ '/images/logos/git.svg' | relative_url }}">
