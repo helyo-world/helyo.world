@@ -10,7 +10,7 @@ At Helyo, a pluridisciplinary freelancers association, we ambition to accompany 
 
 # What do we do?
 
-We specialize in **infrastructure**, **APIs** (*Node.js* or *PHP*), **Web and Mobile apps**, **backend technologies** (*micro-services*, *orchestration*, *ETL*, *data consolidation*, *data science*), **industrial processes** (*SQL* & *MongoDB*) and **industrial processes** (*code management*, *tests*, *CI* & *CD*)
+We specialize in **infrastructure**, **APIs** (*Node.js* or *PHP*), **Web and Mobile apps**, **backend technologies** (*micro-services*, *orchestration*, *ETL*, *data consolidation*, *data science*), **database management** (*SQL* & *MongoDB*) and **industrial processes** (*code management*, *tests*, *CI* & *CD*)
 
 Our expertise:
 
@@ -19,11 +19,11 @@ Our expertise:
 * Data management architecture
 * API building
 * Data modeling
-* Data valorization
+* Data mining
 * Backend solutions
 * Cloud hosting & datacenter architectures
 * Web & mobile apps (Angular, iOS, Android, hybrid)
-* Technologies teaching & coaching
+* Teaching & coaching on the tools & technologies we use
 * Agile & operational processes
 
 # Technologies
@@ -62,7 +62,7 @@ Our expertise:
 	<img alt="Laravel" src="{{ '/images/logos/laravel.svg' | relative_url }}">
 </p>
 
-## Operations
+## Operations and tools
 
 <p class="logos-list">
 	<img alt="Git" src="{{ '/images/logos/git.svg' | relative_url }}">
