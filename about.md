@@ -22,21 +22,21 @@ cover: /images/tools-rack.jpg
 			{% endif %}
 			<p>
 				{% if author.twitter %}
-				<a href="https://twitter.com/{{ author.twitter }}" class="external-profile" target="_blank" rel="noopener noreferer" aria-label="Twitter profile">
+				<a href="https://twitter.com/{{ author.twitter }}" class="external-profile" target="_blank" rel="noopener noreferer" aria-label="Twitter profile" itemprop="alternateName">
 					<i class="fa fa-twitter" aria-hidden="true" title="Twitter profile"></i>
 					@{{ author.twitter }}
 				</a>
 				{% endif %}
 
 				{% if author.github %}
-				<a href="https://github.com/{{ author.github }}" class="external-profile" target="_blank" rel="noopener noreferer" aria-label="GitHub profile">
+				<a href="https://github.com/{{ author.github }}" class="external-profile" target="_blank" rel="noopener noreferer" aria-label="GitHub profile" itemprop="alternateName">
 					<i class="fa fa-github" aria-hidden="true" title="GitHub profile"></i>
 					{{ author.github }}
 				</a>
 				{% endif %}
 
 				{% if author.skype %}
-				<a href="skype:{{ author.skype }}?userinfo" class="external-profile" target="_blank" rel="noopener noreferer" aria-label="Skype profile">
+				<a href="skype:{{ author.skype }}?userinfo" class="external-profile" target="_blank" rel="noopener noreferer" aria-label="Skype profile" itemprop="alternateName">
 					<i class="fa fa-skype" aria-hidden="true" title="Skype profile"></i>
 					{{ author.skype }}
 				</a>
