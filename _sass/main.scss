@@ -43,6 +43,10 @@ hr {
 	border: none;
 }
 
+.center {
+	text-align: center;
+}
+
 /**************************************************
  *
  * Responsive
@@ -246,6 +250,19 @@ hr {
 	}
 }
 
+#about-us-authors {
+	@media screen and (min-width: 60rem) {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		.post-author {
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+	}
+}
+
 #markdown-toc {
 	& > li {
 		margin: 5px 0;
@@ -257,6 +274,25 @@ hr {
 		&:hover,
 		&:focus {
 			text-decoration: underline;
+		}
+	}
+}
+
+.logos-list {
+	text-align: center;
+	font-size: 0;
+
+	img {
+		display: inline-block;
+		max-width: 40px;
+		max-height: 40px;
+		vertical-align: middle;
+		margin: 10px;
+
+		@media screen and (min-width: 30rem) {
+			max-width: 80px;
+			max-height: 80px;
+			margin: 10px 20px;
 		}
 	}
 }
