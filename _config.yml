@@ -5,7 +5,9 @@ language: "en"
 timezone: "Europe/Paris"
 encoding: "utf-8"
 
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
 paginate: 10
 excerpt_separator: "---"
 
