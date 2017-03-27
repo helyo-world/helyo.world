@@ -75,5 +75,5 @@ If you want to make sure someone is capable enough, you should take a look at wh
 
 If you're gonna be working with someone, you should make sure you can work together. See if their personality suits you, if you can talk to them easily. You don't have to be BFFs, but you should at least be able to chat.
 
-*[MVP]: Minimum Viable Product*
-*[BFF]: Best Friend Forever*
+*[MVP]: Minimum Viable Product
+*[BFF]: Best Friend Forever
