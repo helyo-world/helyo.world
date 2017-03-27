@@ -7,9 +7,9 @@ tags:
 - tools
 ---
 
-One of the first a startuper has to do to get started is to build a basic version of their app/website/product to show investors. This MVP often needs to be done fast, without sacrificing quality.
+One of the first things a startuper has to do to get started is building a basic version of their app/website/product to show it to investors. This MVP often needs to be done fast, without sacrificing quality.
 
-After working on a few MVP's, we have picked up a few tricks that might help you get your product running quickly.
+After working on a few MVPs, we have picked up a few tricks that might help you get your product up and running quickly.
 
 ---
 
@@ -29,9 +29,9 @@ Except it's not that different. Whether you're building a social network, a mobi
 
 So why build your product entirely from scratch when others have already done most of the job for you? Look online: there are probably many solutions (open source or otherwise) that could help you save a lot of time.
 
-Use those tools! You'll be faster and you can even use some of that free time to do other things:
+Use those tools! You'll be faster and you can even use some of that free time to do other things, like:
 
-* Work on the others sides of your projects (business, marketing, contents…)
+* Work on the other sides of your projects (business, marketing, contents…)
 * Build more functionalities, make your product even better
 * Improve the design, polish up the code
 * Give back to the open-source community by sharing some of your code
@@ -44,12 +44,12 @@ Use those tools! You'll be faster and you can even use some of that free time to
 
 Don't be afraid to spend a few days, or even a couple of weeks, seeking and trying out a bunch of tools that might suit your needs.
 
-If they save you a month worth of work, you can easily spend a few days testing them. If so many people use [WordPress](https://www.wordpress.org/) or [Express](http://expressjs.com) nowadays, there is a (very good) reason: it saves (a lot of) time.
+If they save you a month's worth of work, you can see why it's a good idea to spend a few days testing them. If so many people use [WordPress](https://www.wordpress.org/) or [Express](http://expressjs.com) nowadays, it's for a (very good) reason: it saves (a lot of) time.
 
 So don't hesitate: test them, push them to their limits!
 
 * Study them
-* Read come of the code
+* Read some of the code
 * Look at the documentation
 * Speak to other users
 * Read others' opinions
@@ -59,7 +59,7 @@ So don't hesitate: test them, push them to their limits!
 
 # Choose the right people
 
-If your project isn't tiny, chances are you will need to recruit people to help you built it. But you probably don't want to take the risk to hire someone who doesn't suit your needs. And you're right, you should be careful enough to make sure your beloved project becomes successful!
+If your project isn't tiny, chances are you will need to recruit people to help you build it. But you probably don't want to take the risk to hire someone who doesn't suit your needs. And you're right, you should be careful enough to make sure your beloved project becomes successful!
 
 I won't give you a Recruiting 101 lecture in this article, but there are a few key points that might help you a bit.
 
@@ -73,7 +73,7 @@ If you want to make sure someone is capable enough, you should take a look at wh
 
 ## Socialize
 
-If you're gonna be working with someone, you should make sure you can work together. See if their personality suits you, if you can talk to them easily. You don't have to be BFF's, but you should at least be able to chat some.
+If you're gonna be working with someone, you should make sure you can work together. See if their personality suits you, if you can talk to them easily. You don't have to be BFFs, but you should at least be able to chat.
 
 *[MVP]: Minimum Viable Product
 *[OSS]: Open-Source Software
