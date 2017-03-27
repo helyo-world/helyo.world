@@ -7,7 +7,7 @@ tags:
 - tools
 ---
 
-One of the first things a startuper has to do to get started is building a basic version of their app/website/product to show it to investors. This MVP<sup>[1]</sup> often needs to be done fast, without sacrificing quality.
+One of the first things a startuper has to do to get started is building a basic version of their app/website/product to show it to investors. This MVP often needs to be done fast, without sacrificing quality.
 
 After working on a few MVPs, we have picked up a few tricks that might help you get your product up and running quickly.
 
@@ -73,7 +73,7 @@ If you want to make sure someone is capable enough, you should take a look at wh
 
 ## Socialize
 
-If you're gonna be working with someone, you should make sure you can work together. See if their personality suits you, if you can talk to them easily. You don't have to be BFFs<sup>[2]</sup>, but you should at least be able to chat.
+If you're gonna be working with someone, you should make sure you can work together. See if their personality suits you, if you can talk to them easily. You don't have to be BFFs, but you should at least be able to chat.
 
-*<sup>[1]</sup> MVP: Minimum Viable Product*
-*<sup>[2]</sup> BFF: Best Friend Forever*
+*[MVP]: Minimum Viable Product*
+*[BFF]: Best Friend Forever*
