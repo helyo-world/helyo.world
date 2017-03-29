@@ -1,4 +1,8 @@
 - slug: blog
   name: Blog
+- slug: git
+  name: Git
+- slug: opensource
+  name: Open Source
 - slug: tools
   name: Tools

@@ -4,11 +4,12 @@ layout: post
 author: eric
 cover: /images/developer-headache.jpg
 tags:
-- tools
 - git
+- opensource
+- tools
 ---
 
-In this article…
+In this article we're going to review a couple of `git` best practices that will make you the dream contributor for any open-source project maintainer. Well, provided you can code as well of course! :wink:
 
 ---
 
@@ -20,7 +21,7 @@ In this article…
 
 # Preamble
 
-So you're going to contribute to a big open-source project, huh?
+So you're going to contribute to an open-source project, huh?
 
 **Well, this is your new leitmotiv**
 
