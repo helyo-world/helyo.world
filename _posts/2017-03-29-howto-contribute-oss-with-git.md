@@ -339,6 +339,7 @@ A sample repo to test git tricks
 ```
 
 Highest of fives?… Niiice!
+
 ![Highest of fives](http://www.reactiongifs.com/r/5s.gif)
 
 
