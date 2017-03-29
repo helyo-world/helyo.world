@@ -8,6 +8,8 @@ encoding: "utf-8"
 gems:
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
+
 paginate: 10
 excerpt_separator: "---"
 
