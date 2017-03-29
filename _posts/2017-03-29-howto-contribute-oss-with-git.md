@@ -1,5 +1,5 @@
 ---
-title: Basics of git for open-source projects
+title: Basics of Git for open-source projects
 layout: post
 author: eric
 cover: /images/developer-headache.jpg
