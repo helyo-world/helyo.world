@@ -79,6 +79,8 @@ export class MySuperService {
 				.toPromise() // You can also use an Observable, but for demonstration sake I'll use a regular Promise
 				.then((res: Response) => res.json())
 				.then((data: SuperHero[]) => {
+					this.storage.set('super-heroes', data);
+					
 					observer.next(data);
 					observer.complete();
 				})
