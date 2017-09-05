@@ -1,5 +1,5 @@
 ---
-title: Improve your general User Experience when working with Angular or Ionic
+title: Improve your User Experience when working with Angular or Ionic
 layout: post
 author: corentin
 cover: 
@@ -34,7 +34,7 @@ Simple! Your just change your service to handle all that for you while making th
 
 Here is what a basic HTTP request looks like in an Angular service (looks familiar?):
 
-```
+```typescript
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { SuperHero } from '../models/super-hero';
@@ -53,7 +53,7 @@ export class MySuperService {
 
 Now, let's turn that into a more powerful tool!
 
-```
+```typescript
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import { SuperHero } from '../models/super-hero';
